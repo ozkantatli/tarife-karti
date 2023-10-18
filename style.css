@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+
+.ust-baslik{
+    padding: 3px;
+    display: flex;
+    background: #9C2aa0;
+    width: 220px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-tarif-head{
+    background-image:linear-gradient(115deg,#333,#b60000);
+    color: white;
+    padding:20px ;
+    width: 360px;
+    height: 120px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 200;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-price-text{
+    font-size: 14px;
+}
+
+.card-price{
+    display: flex;
+    align-items: baseline;
+}
+
+.fiyat{
+    font-size: 32px;
+}
+
+.ay{
+    font-size: 18px;
+}
