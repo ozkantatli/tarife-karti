@@ -21,6 +21,11 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    transition: transform 1000ms;
+}
+
+.container:hover{
+    transform: scale(1.05);
 }
 .ust-baslik{
     padding: 3px;
